@@ -29,7 +29,7 @@ def drawRect(event, x, y, flags, userdata):
 
 
 
-img = cv2.imread("sample.jpg")
+img = cv2.imread("sample.jpg") # your file location - needs to be changed.
 working_img = img.copy()
 cv2.namedWindow("Window")
 
